@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app>
+
+    <session-config>
+        <session-timeout>-1</session-timeout>
+    </session-config>
+
+  <display-name>Fit Sudan SMS Report</display-name>
+
+    <welcome-file-list>
+     <welcome-file>smsreport.jsp</welcome-file>
+    </welcome-file-list>  
+
+
+</web-app>

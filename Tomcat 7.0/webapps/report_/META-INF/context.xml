@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Context>
+
+  <Resource name="jdbc/TheDB" auth="Container"
+            type="javax.sql.DataSource" username="root" password=""
+            driverClassName="com.mysql.jdbc.Driver" 
+            url="jdbc:mysql://127.0.0.1:3306/reporting"
+            maxActive="-1" 
+            />
+  
+  <Resource name="jdbc/TheDB2" auth="Container"
+            type="javax.sql.DataSource" username="root" password="Mtn-fit-741"
+            driverClassName="com.mysql.jdbc.Driver" 
+            url="jdbc:mysql://192.168.10.122:3306/ucp_user"
+            maxActive="-1" />
+ 
+</Context>

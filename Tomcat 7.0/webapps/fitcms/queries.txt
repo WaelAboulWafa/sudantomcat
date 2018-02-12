@@ -1,0 +1,20 @@
+select top 1  Push.id,Push.msisdn,Push.provider,Push.country,Push.operator,Push.shortcode,Push.scode
+from Push,Contents
+where Push.code=Contents.ContentCode	
+and Push.status='pending'
+order by id
+
+
+select Push.id,Push.msisdn,Push.provider,Push.country,Push.operator,Push.shortcode,Push.scode
+from Push,Contents
+where Push.code=Contents.ContentCode	
+and Push.status='pending'
+order by id
+
+
+
+select Push.id,Push.msisdn,Push.provider,Push.country,Push.operator,Push.shortcode,Push.scode,Contents.ContentCode
+from Push,Contents
+where Push.code=Contents.ContentCode	
+and Push.status='pending'
+order by id

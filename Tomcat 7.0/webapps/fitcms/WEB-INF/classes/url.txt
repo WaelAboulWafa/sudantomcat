@@ -1,0 +1,9 @@
+
+http://localhost/fitcms/d?id=8&scode=3376168370
+
+http://localhost/fitcms/d?id=7&scode=5854480665
+
+http://localhost/fitcms/d?id=9&scode=1718072084
+
+http://localhost/fitcms/d?id=10&scode=3314281633
+

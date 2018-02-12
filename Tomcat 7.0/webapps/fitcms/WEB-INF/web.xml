@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app>
+  <display-name>FIT CMS Application</display-name>
+
+    <session-config>
+        <session-timeout>-1</session-timeout>
+    </session-config>
+
+
+
+
+<servlet>
+ <display-name>d</display-name>
+ <servlet-name>d</servlet-name>
+ <servlet-class>d</servlet-class>
+</servlet>
+<servlet-mapping>
+ <servlet-name>d</servlet-name>
+ <url-pattern>/d</url-pattern>
+</servlet-mapping>
+
+
+
+<servlet>
+ <display-name>dc</display-name>
+ <servlet-name>dc</servlet-name>
+ <servlet-class>dc</servlet-class>
+</servlet>
+<servlet-mapping>
+ <servlet-name>dc</servlet-name>
+ <url-pattern>/dc</url-pattern>
+</servlet-mapping>
+
+
+
+
+</web-app>

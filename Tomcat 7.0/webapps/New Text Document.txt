@@ -1,0 +1,23 @@
+/**	<select name='filtershortcode' style='font-size:10pt;color:#000099;font-weight:bold;width:10em;height:1.7em' >
+											 <option>ALL</option>
+											<% 
+											for (int l =0  ; l < theshortcodes.length ; l ++)
+											{
+											  if (theshortcodes[l].equalsIgnoreCase(filtershortcode)) 
+											  {
+											  
+											%>       	        
+											    	        <option selected><%= theshortcodes[l] %></option>
+											<%
+											  }
+											  else
+											  {
+											%>       	        
+											    	        <option><%= theshortcodes[l] %></option>
+											<%
+											  }    	        
+											}
+											%> 
+											</select>                                          	
+                                          	
+                                          	**/

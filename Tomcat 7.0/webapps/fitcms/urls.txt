@@ -1,0 +1,13 @@
+submit request
+--------------
+
+http://localhost/fitcms/submit.jsp?msisdn=2012XXXXXXX&shortcode=1717&country=Egypt&operator=Mobinil&provider=FitEgy&contents=0623&lang=A
+http://localhost/fitcms/submit.jsp?msisdn=2012XXXXXXX&shortcode=1717&country=Egypt&operator=Mobinil&provider=FitEgy&contents=the%20code%2015690%20is%20the%20required%20one&lang=E
+http://localhost/fitcms/submit.jsp?msisdn=2012XXXXXXX&shortcode=1717&country=Egypt&operator=Mobinil&provider=FitEgy&contents=0627064406430648062F00200031003700300039003700200647064800200627064406450637064406480628002000270020064800200643064506270646002000320037003800360032&lang=A
+
+
+
+
+download 
+
+http://localhost:/fitcms/d?id=7&scode=3042112072

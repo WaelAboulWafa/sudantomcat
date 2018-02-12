@@ -1,0 +1,34 @@
+ID
+DateIn
+Provider
+shortcode
+msisdn
+Lang
+Contents
+DateOut
+Readable
+Status
+
+
+
+06390644064A00200628062706280627002006280639062F002006270644063606460627
+http://localhost/nowsmscdrs/smscdr.jsp?provider=prov1&msisdn=m1&shortcode=s1&lang=A&contents=06390644064A00200628062706280627002006280639062F002006270644063606460627
+http://localhost/nowsmscdrs/smscdr.jsp?provider=prov1&msisdn=m1&shortcode=s1&lang=E&contents=hello all
+
+
+drop table cdrs;
+CREATE TABLE  CDRs
+(
+ID int(11) NOT NULL AUTO_INCREMENT,
+DateIn datetime DEFAULT now(),
+Provider TEXT NOT NULL,
+msisdn TEXT NOT NULL,
+shortcode TEXT NOT NULL,
+Lang TEXT NOT NULL,
+Contents  TEXT NOT NULL,
+Readable  TEXT NOT NULL,
+Length int(11)  DEFAULT 1,
+DateOut datetime DEFAULT NULL,
+Status int(11)  DEFAULT 0,
+PRIMARY KEY (ID)
+);
